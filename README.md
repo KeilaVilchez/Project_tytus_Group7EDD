@@ -18,7 +18,7 @@ Encargado [Byron Par](https://github.com/ByronPar)  , estructuras de datos para 
 
 ##Funciones de tablas
 
-Encargado [April Vilchez]() y [Minerva Vilchez]() , estructuras de datos para el almacenamiento ---> avl
+Encargado [April Vilchez](https://github.com/KeilaVilchez) y [Minerva Vilchez](https://github.com/MinervaVilchez) , estructuras de datos para el almacenamiento ---> avl
 
 - createTable(database, tableName, numberColumns): crea una tabla según el modo de almacenamiento, la base de datos debe de existir, y solo se define el número de columnas.
 - showTables(database): devuelve una lista de los nombre de las tablas de una base de datos, los nombre de tablas son únicos.
@@ -30,7 +30,7 @@ Encargado [April Vilchez]() y [Minerva Vilchez]() , estructuras de datos para el
 
 ##Funciones de tuplas
 
-Encargado [Pablo Oliva](), estructuras de datos para almacenamiento --> árbol B
+Encargado [Pablo Oliva](https://github.com/27Pablooliva27), estructuras de datos para almacenamiento --> árbol B
 
 - insert(database, table, columns): inserta un registro en la estructura de datos persistente, database es el nombre de la base de datos, table es el nombre de la tabla y columns es una lista de campos a insertar. Devuelve un True si no hubo problema, y un False si no se logró insertar.
 - update(database, table, id, columnNumber, value): actualiza el valor de una columna x en un registro id de una tabla de una base de datos. Devuelve True si se actualizó correctamente y False si no se logró actualizar.
