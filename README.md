@@ -7,7 +7,7 @@ Diciembre 2020
 
 ## Modo árbol B
 
-###Funciones de base de datos
+## Funciones de base de datos
 
 Encargado [Byron Par](https://github.com/ByronPar)  , estructuras de datos para el almacenamiento --> tablas hash
 
@@ -16,7 +16,7 @@ Encargado [Byron Par](https://github.com/ByronPar)  , estructuras de datos para 
 - alterDatabase(databaseOld, databaseNew): cambia el nombre de una base de datos.
 - dropDatabase(database): elimina por completo la base de datos indicada.
 
-###Funciones de tablas
+## Funciones de tablas
 
 Encargado [April Vilchez](https://github.com/KeilaVilchez) y [Minerva Vilchez](https://github.com/MinervaVilchez) , estructuras de datos para el almacenamiento ---> avl
 
@@ -28,7 +28,7 @@ Encargado [April Vilchez](https://github.com/KeilaVilchez) y [Minerva Vilchez](h
 - alterDrop(database, tableName, columnNumber): elimina una n-esima columna de cada registro de la tabla.
 - extractTable(database, table): extrae y devuelve en una lista de listas el contenido de la tabla.
 
-###Funciones de tuplas
+## Funciones de tuplas
 
 Encargado [Pablo Oliva](https://github.com/27Pablooliva27), estructuras de datos para almacenamiento --> árbol B
 
@@ -38,13 +38,13 @@ Encargado [Pablo Oliva](https://github.com/27Pablooliva27), estructuras de datos
 - truncate(database, tableName): vacía la tabla de todos los registros.
 - extractRow(database, table, id): extrae y devuelve una tupla especificada 
 
-### Función de carga desde un archivo CSV
+## Función de carga desde un archivo CSV
 Funcion encargada de llamar a las funciones add
 
 - loadCSV(filecsv, database, table, [modo]): carga un archivo csv de un ruta especificada indicando la ruta de la base de datos y en qué tabla será guardada. Si la tabla existe verifica la cantidad de columnas, si no corresponde da error. Si la tabla no existe, la crea. Si la base de datos no existe, la crea con el modo especificado.
 
 
-###Reportes
+## Reportes
 Los reportes de las estructuras utilizadas se deben mostrar mediante una aplicación de interfaz gráfica utilizando cualquier herramienta gráfica (que cumpla compatabilidades de licencia). 
 
 La aplicación debe mostrar de manera gráfica y navegable las siguientes estructuras:
@@ -55,7 +55,7 @@ La aplicación debe mostrar de manera gráfica y navegable las siguientes estruc
 
 Cada estructura posee una función para mostrar su grafica. realizado por el encargado segun sea el caso de su estructura.
 
-### Manual ténico y de usuario
+## Manual ténico y de usuario
 En la carpeta del equipo se debe crear con Markdown un archivo de manual técnico y otro de manual de usuario. Se puede utilizar cualquier referencia bibliográfica para elaborar los manuales, se sugiere ver este [enlace](https://web.mit.edu/course/21/21.guide/docution.htm) del MIT.
 
 Se estara completando en el transcurso de los días por cada uno de los integrantes.
